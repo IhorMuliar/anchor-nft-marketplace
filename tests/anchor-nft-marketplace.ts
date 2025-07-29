@@ -6,7 +6,8 @@ describe("anchor-nft-marketplace", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
-  const program = anchor.workspace.anchorNftMarketplace as Program<AnchorNftMarketplace>;
+  const program = anchor.workspace
+    .anchorNftMarketplace as Program<AnchorNftMarketplace>;
 
   it("Is initialized!", async () => {
     // Add your test here.
