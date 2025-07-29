@@ -1,3 +1,6 @@
+#![allow(unexpected_cfgs)]
+#![allow(deprecated)]
+
 //! # Anchor NFT Marketplace
 //! 
 //! A decentralized NFT marketplace built on Solana using the Anchor framework.
